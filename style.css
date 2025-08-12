@@ -1,0 +1,48 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    color: #2c3e50;
+    margin-top: 50px;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Button style */
+.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer style */
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #888;
+}
