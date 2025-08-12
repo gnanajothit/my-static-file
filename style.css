@@ -1,48 +1,59 @@
-/* General page styling */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    color: #333;
+/* Reset some default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background and font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    color: #333;
     text-align: center;
+    padding: 40px 20px;
+    line-height: 1.6;
 }
 
-/* Header styling */
+/* Main heading */
 h1 {
+    font-size: 3rem;
     color: #2c3e50;
-    margin-top: 50px;
-    font-size: 3em;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Paragraph styling */
+/* Paragraph text */
 p {
-    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 15px;
+    font-size: 1.2rem;
     color: #555;
 }
 
-/* Button style */
-.button {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1.1em;
-    margin-top: 20px;
-    transition: background 0.3s ease;
+/* Highlighted strong text */
+strong {
+    color: #1abc9c;
 }
 
-.button:hover {
-    background-color: #2980b9;
+/* Add a subtle card effect around text */
+body > p {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
 }
 
-/* Footer style */
+/* Hover effect on text blocks */
+body > p:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Optional footer styling */
 footer {
     margin-top: 40px;
-    padding: 10px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     color: #888;
 }
